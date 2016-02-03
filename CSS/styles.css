@@ -61,9 +61,15 @@ aside h1 {
 aside p {
 
     color: white;
-    font-size: 1em;
-    font-family: arsenal;
+    font-size: 3em;
+    font-family: alex-brush;
     text-shadow: 1px 0px 2px black;
+    margin-top: -20px;
+}
+
+.galleryaside {
+    height: 25%;
+    background-position: top center;
 }
 
 /* Navigation */
@@ -116,25 +122,30 @@ a:hover {
 .information article {
     font-family: arsenal;
     color: white;
+    text-align: center;
 }
 
 .primary, .secondary {
     float: left;
 }
 .primary {
+    background: grey;
+    margin-left: 10%;
     width: 40%;
-    padding-left: 6%;
-    padding-right: 2%;
     margin-top: 1%;
-    text-align: right;
+}
+
+.primary h1 {
+    font-family: alex-brush;
+    font-size: 4em;
+    text-align: center;
+    color: white;
 }
 
 .secondary {
+    background: grey;
     width: 40%;
-    padding-left: 2%;
-    padding-right: 6%;
     margin: 1%;
-    text-align: left;
 }
 /* Footer */
 
