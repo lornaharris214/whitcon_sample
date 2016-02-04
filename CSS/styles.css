@@ -129,7 +129,6 @@ a:hover {
     float: left;
 }
 .primary {
-    background: grey;
     margin-left: 10%;
     width: 40%;
     margin-top: 1%;
@@ -143,10 +142,14 @@ a:hover {
 }
 
 .secondary {
-    background: grey;
     width: 40%;
     margin: 1%;
 }
+
+/* Gallery */
+
+
+
 /* Footer */
 
 footer {
